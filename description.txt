@@ -1,0 +1,5 @@
+Підключення JQuery: https://jquery.com/download/ 
+    Download the compressed - файл стиснутої бібліотеки jquery-min.js
+    Перед закриттям body пізключаємо через script:src
+    Після неї підключається скрипт сторінки
+
