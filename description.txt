@@ -21,4 +21,27 @@
     $('div:hidden/visibility') всі приховані/видимі
 Для того, підключати скрипти в head документа та код виконувався після
     прогрузки всього html-документа, код вписуємо в функцію:
-    $(document).ready(function(){...}) або $(function(){...}).
+    $(document).ready(function(){
+        ...
+    }) або 
+    $(function(){
+        ...
+    }).
+
+Записати значення в змінну: let variable = $('.class tag');
+
+Показати/приховати об'єкт за певний час:
+    obj.hide(t)/show(t) - приховує/показує
+    obj.fadeOut(t)/fadeIn(t) вісвітлює/проявляє об'єкт
+    obj.fadeTo(t, opacity) задає opacity
+    obj.slideUp(t)/slideDown(t) згортає/розгортає об'єкт
+
+Ф-ї можна викликати по ланцюгу: obj.hide(ms).show(ms);
+Для групи об'єктів є автоцикли: $(objects).hide(ms); - для всіх object
+
+$(paragraph).text() повертає текст параграфа, записує аргумент str
+obj.width()/height() повертає/записує ширину/висоту (аргумент)
+obj.html() повертає/перезаписує html-код всередині об'єкта
+obj.attr('src') повертає/додає/перезаписує атрибут 'src'
+    для зміни другий аргумент: attr('src', 'img/logo.png')
+obj.removeAttr('src') видаляє атрибут 'src'
